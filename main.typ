@@ -25,4 +25,26 @@ You can find the repository here: #link("https://github.com/JoshuaSchell/Introdu
 
 In the spirit of open collaboration, I encourage you to contribute. If you find errors, have suggestions, or want to add new content, feel free to submit issues or pull requests. This is a living document—a continuously updated diary of my learnings rather than a polished, final textbook. Maybe one day, with enough contributions, these notes will be turn into a _professionalish_ textbook.
 
-"BuT JOsh, WHY aRe YOu uSIng tyPST" you maybe crying into the empty void. I have used both LaTex and Markdown extensively, _note that I purposefully did not say well_, in the past and both have their pros and cons and a friend from college recommended typst to me, so I thought I'd try it out and use this project to learn Typst alongside my ML learning \u{1F937} \u{1F937} \u{1F937}
+"WHY aRe YOu uSIng tyPST" you maybe crying into the empty void. I have used both LaTex and Markdown extensively, _note that I purposefully did not say well_, in the past and both have their pros and cons and a friend from college recommended typst to me, so I thought I'd try it out and use this project to learn Typst alongside my ML learning \u{1F937} \u{1F937} \u{1F937}
+
+#pagebreak()
+
+= Supervised Learning
+
+#linebreak()
+
+Supervised learning is a type of machine learning that is trained on labeled data.
+
+Training data consists of input-output pairs. The model learns by mapping the given inputs to their corresponding given output. The end goal being the model's ability to predict the _correct_ output for new, unseen inputs from its learning.
+
+#align(center, $x_(upright("input")) arrow y_(upright("output"))$)
+
+Common use cases of supervised learning:
+
+- Classification: mapping inputs to a set number of outputs
+
+  - Example: Is this image a dog or a cat? (only two possible outputs)
+
+- Regression: mapping inputs to any number of outputs
+
+  - Example: What should this home be sold for? (infinite possible outputs)
